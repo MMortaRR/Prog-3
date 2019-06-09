@@ -11,4 +11,11 @@ app.listen(3000,function(){
     console.log("example is running on port 3000");
 });
 
+var Square = require("./module");
+var mySquareObject = new Square(5);
 
+function main(){
+    console.log(mySquareObject.getArea());
+}
+
+main();

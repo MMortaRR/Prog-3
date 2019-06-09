@@ -1,4 +1,4 @@
-class Eatgrass extends livingcreator{
+module.exports = class Eatgrass extends livingcreator{
     constructor(x, y) {
         super(x,y);
         this.energy = 15;

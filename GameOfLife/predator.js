@@ -1,4 +1,4 @@
-class Predator extends livingcreator {
+module.exports = class Predator extends livingcreator {
     constructor(x, y) {
         super(x,y)
         this.energy = 10;

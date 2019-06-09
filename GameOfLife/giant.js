@@ -1,4 +1,4 @@
-class Giant extends livingcreator {
+module.exports = class Giant extends livingcreator {
     constructor(x, y) {
         super(x,y)
         this.multiply = 0;

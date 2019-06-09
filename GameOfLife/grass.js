@@ -1,6 +1,5 @@
-class Grass {
+module.exports = class Grass extends livingcreator{
     
-
     //շրջապատի հետազոտության մատրիցը
     newDirections() {
         this.directions = [

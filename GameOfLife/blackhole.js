@@ -1,4 +1,4 @@
-class BlackHole extends livingcreator{
+module.exports = class BlackHole extends livingcreator{
     constructor(x, y) {
         super(x,y)
         this.energy = 2;

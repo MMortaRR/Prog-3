@@ -1,5 +1,5 @@
 app.get("/",function(req,res){
-    res.send("hello gev jan");
+    res.send("hello Edgar jan");
 });
 
 app.get("/name/:name",function(req,res){

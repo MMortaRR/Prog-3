@@ -1,8 +1,8 @@
 var fs = require('fs');
 var obj =
 {
-    "firstName":"Gev",
-    "lastName":"Panosyan",
+    "firstName":"Edgar",
+    "lastName":"Gharagyozyan",
     "age":14,
     "tumo_student":true
 }
